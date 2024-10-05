@@ -58,26 +58,4 @@ El fichero `Principal.java` contiene el menú principal que permite al usuario s
    - El programa presentará un menú para seleccionar entre **criptografía simétrica** y **asimétrica**.
    - Dependiendo de la elección, se presentará otro menú para seleccionar las operaciones de **generación de clave**, **cifrado**, **descifrado**, **firma** o **verificación**.
 
-## Consideraciones Importantes
 
-- **Separación de Clases**: La práctica debe incluir al menos tres clases: `Principal`, `Simetrica`, y `Asimetrica`. No se admitirán prácticas que implementen todo el código en una única clase.
-- **Evitar Caracteres Adicionales**: Durante los procesos de cifrado y descifrado, se debe tener especial cuidado para no introducir caracteres adicionales (NULL, CR, LF) en los ficheros.
-- **Rendimiento de Ficheros**: Se recomienda utilizar **wrappers** como `BufferedInputStream` y `BufferedOutputStream` para mejorar el rendimiento en la gestión de ficheros.
-
-## Entrega
-
-La práctica debe ser entregada a través de la plataforma **Moodle** antes de la fecha indicada:
-
-- Grupo de los martes: **lunes 4 de marzo a las 23:50**.
-- Grupo de los jueves: **miércoles 6 de marzo a las 23:50**.
-
-## Evaluación
-
-La evaluación se realizará al inicio de la cuarta semana y consistirá en:
-
-1. **Funcionamiento de la práctica**: 3%
-2. **Test de Moodle sobre la codificación y conocimientos adquiridos**: 7%
-
-## Autores
-
-- **M.L. Martín, P. Castillejo, E. Gago** / DTE-UPM
